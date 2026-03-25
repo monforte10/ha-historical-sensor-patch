@@ -358,6 +358,8 @@ class HistoricalSensor(SensorEntity):
             source=source,
             statistic_id=self.statistic_id,
             unit_of_measurement=self.unit_of_measurement,
+            mean_type=1,
+            unit_class="energy",
         )
 
         return metadata
